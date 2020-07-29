@@ -1,0 +1,171 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #212529;
+  color: white;
+}
+
+#header .container-fluid {
+  height: 100vh;
+  max-width: 1600px;
+}
+
+#header .row {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10vh;
+}
+
+#header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+
+#header p {
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #acacac;
+}
+
+#header img {
+  width: 750px;
+}
+
+#header svg {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  padding: 0;
+  margin: 0;
+}
+
+#header button {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7CE0FF), to(#22A0FF));
+  background-image: linear-gradient(to bottom right, #7CE0FF, #22A0FF);
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#what-we-do {
+  height: 1000px;
+}
+
+#what-we-do .card {
+  background-color: #2E3858;
+  border-radius: 3px;
+  padding: 50px;
+  margin: 0 10px;
+}
+
+#what-we-do img {
+  width: 80px;
+  padding: 0px 0 50px 0;
+}
+
+#what-we-do .row {
+  padding: 0;
+  margin: 0;
+}
+
+#what-we-do .btn {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#what-we-do .btn-2 {
+  color: #3699E6;
+}
+
+#what-we-do .btn-1 {
+  color: #DF4570;
+}
+
+#what-we-do .btn-3 {
+  color: #24C4A3;
+}
+
+#how-it-works {
+  height: 1000px;
+}
+
+#how-it-works img {
+  width: 80%;
+}
+
+#how-it-works .center {
+  padding-top: 400px;
+}
+
+#how-it-works .color-txt {
+  color: #3699E6;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px 0 10px 0;
+}
+
+#how-it-works button {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7CE0FF), to(#22A0FF));
+  background-image: linear-gradient(to bottom right, #7CE0FF, #22A0FF);
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#sign-up {
+  height: 900px;
+  padding-top: 600px;
+}
+
+#sign-up .container-fluid {
+  padding-top: 450px;
+  max-width: 1600px;
+}
+
+#sign-up img {
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+}
+
+#sign-up h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+}
+
+#sign-up .card {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 50px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+#sign-up button {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7CE0FF), to(#22A0FF));
+  background-image: linear-gradient(to bottom right, #7CE0FF, #22A0FF);
+  border-radius: 50px;
+  border: none;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */
